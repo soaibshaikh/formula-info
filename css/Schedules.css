@@ -1,0 +1,95 @@
+.sch1{
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		margin-left: 360px;
+	    margin-right: 360px;
+	    margin-top: 200px;
+	    margin-bottom: 200px;
+}
+.schf1{
+	width: 250px;
+	height: 250px;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black; 
+	border-left: 4px solid black;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	display: inline-flex;
+	border-radius: 10px;
+}
+.schf1:hover {
+	border-color: red;
+}
+.schmgp{
+	width: 250px;
+	height: 250px;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black; 
+	border-left: 4px solid black;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	border-radius: 10px;
+}
+.schmgp:hover {
+	border-color: red;
+}
+.schwec{
+	width: 250px;
+	height: 250px;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black; 
+	border-left: 4px solid black;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	border-radius: 10px;
+}
+.schwec:hover {
+	border-color: red;
+}
+.navbar{
+	background-color: #000000;
+	border-radius: 30px;
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}

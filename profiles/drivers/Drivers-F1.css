@@ -1,0 +1,257 @@
+body{
+	background-color: #d3d3d3;
+}
+.navbar{
+	background-color: #000000;
+	border-radius: 30px;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}
+fieldset {
+	 width: 250px;
+	 height: 250px;
+	 display: flex;
+}
+
+
+.b0 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 padding-top: 15px;
+	 justify-content: center;
+}
+.mx{
+	border: 5px solid red;
+	white-space: 0px;
+}
+.cp{
+
+	 border: 5px solid red;
+}
+.gr{
+
+	border: 5px solid red;
+}
+.lh{
+
+	border: 5px solid red;
+}
+.mx, .cp, .gr, .lh{
+	width: 329.600px;
+	background: white;
+	border-color: black;
+	border-radius: 15px;
+}
+.b1{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.cl{
+		width: 320.800px;
+	border: 5px solid red;
+	white-space: 0px;
+}
+.cs{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.op{
+
+	border: 5px solid red;
+}
+.ln{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.cl, .cs, .op, .ln{
+	width: 329.600px;
+	background: white;
+	border-color: black;
+	border-radius: 15px;
+}
+.b2{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.ls{
+		width: 320.800px;
+	border: 5px solid red;
+	white-space: 0px;
+}
+.fa{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.eo{
+
+	border: 5px solid red;
+}
+.pg{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.ls, .fa, .eo, .pg{
+	width: 329.600px;
+	background: white;
+	border-color: black;
+	border-radius: 15px;
+}
+.b3{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.aa{
+		width: 320.800px;
+	border: 5px solid red;
+	white-space: 0px;
+}
+.lo{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.dr{
+
+	border: 5px solid red;
+}
+.yt{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.aa, .lo, .dr, .yt{
+	width: 329.600px;
+	background: white;
+	border-color: black;
+	border-radius: 15px;
+}
+.b4{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.vb{
+		width: 320.800px;
+	border: 5px solid red;
+	white-space: 0px;
+}
+.zg{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.km{
+
+	border: 5px solid red;
+}
+.nh{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.vb, .zg, .km, .nh{
+	width: 329.600px;
+	background: white;
+	border-color: black;
+	border-radius: 15px;
+}
+.mx:hover{
+	border-color: #040273;
+}
+.cp:hover{
+	border-color: #040273;
+}
+.lh:hover{
+	border-color: #38b09d;
+}
+.gr:hover{
+	border-color: #38b09d;
+}
+.cl:hover{
+	border-color: red;
+}
+.op:hover{
+	border-color: orange;
+}
+.ln:hover{
+	border-color: orange;
+}
+.ls:hover{
+	border-color: #00594f;
+}
+.fa:hover{
+	border-color: #00594f;
+}
+.eo:hover{
+	border-color: #2673e2;
+}
+.pg:hover{
+	border-color: #2673e2;
+}
+.aa:hover{
+	border-color: #00a0de;
+}
+.lo:hover{
+	border-color: #00a0de;
+}
+.cs:hover{
+	border-color: red;
+}
+.dr:hover{
+	border-color: #8a2be2;
+}
+.yt:hover{
+	border-color: #8a2be2;
+}
+.vb:hover{
+	border-color: green;
+}
+.zg:hover{
+	border-color: green;
+}
+.km:hover{
+	border-color: #d3d3d3;
+}
+.nh:hover{
+	border-color: #d3d3d3;
+}

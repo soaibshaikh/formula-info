@@ -1,0 +1,12 @@
+td, th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+.wect1, .wect2{
+	border: 5px solid red;
+	width: 900px;
+}
+table{
+	width: 100%;
+}

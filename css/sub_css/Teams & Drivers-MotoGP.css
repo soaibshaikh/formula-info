@@ -1,0 +1,98 @@
+.navbar{
+	background-color: #000000;
+	border-radius: 30px;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}
+fieldset {
+	 width: 250px;
+	 height: 250px;
+	 display: flex;
+}
+
+
+.b0 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 padding-top: 15px;
+	 justify-content: center;
+}
+.b1 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 justify-content: center;
+}
+.b2 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 justify-content: center;
+}
+.fo0{
+	border: 5px solid;
+	white-space: 0px;
+	background: black;
+}
+.fo1{
+
+	 border: 5px solid;
+}
+.fo2{
+
+	border: 5px solid;
+}
+.fo3{
+
+	border: 5px solid;
+}
+.fo0, .fo1, .fo2, .fo3{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+.btmlft{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+h6, h1{
+	color: white;
+}
+.img undefined picture__img{
+	height: 250px;
+}

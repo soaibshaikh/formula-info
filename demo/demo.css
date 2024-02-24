@@ -1,0 +1,69 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.35;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;.sch1{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 360px;
+      margin-right: 360px;
+      margin-top: 200px;
+      margin-bottom: 200px;
+      opacity: 0,35;
+}
+.schf1{
+  width: 250px;
+  height: 250px;
+  border-right: 4px solid red;
+  border-bottom: 4px solid red;
+  border-top: 4px solid red; 
+  border-left: 4px solid red;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  display: inline-flex;
+}
+.schmgp{
+  width: 250px;
+  height: 250px;
+  border-right: 4px solid red;
+  border-bottom: 4px solid red;
+  border-top: 4px solid red; 
+  border-left: 4px solid red;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.schwec{
+  width: 250px;
+  height: 250px;
+  border-right: 4px solid red;
+  border-bottom: 4px solid red;
+  border-top: 4px solid red; 
+  border-left: 4px solid red;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+
+/* Style the button used to pause/play the video */
+
+<img data-src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/abu-dhabi-flag.png.transform/2col/image.png" class="lazy loaded" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/abu-dhabi-flag.png.transform/2col/image.png" data-was-processed="true">

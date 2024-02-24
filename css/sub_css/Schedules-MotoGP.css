@@ -1,0 +1,268 @@
+.navbar{
+	background-color: #000000;
+	border-radius: 30px;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}
+fieldset {
+	 width: 250px;
+	 height: 250px;
+	 display: flex;
+}
+
+
+.b0 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 padding-top: 15px;
+	 justify-content: center;
+}
+.fo0{
+	border: 5px solid red;
+	white-space: 0px;
+}
+.fo1{
+
+	 border: 5px solid red;
+}
+.fo2{
+
+	border: 5px solid red;
+}
+.fo3{
+
+	border: 5px solid red;
+}
+.fo0, .fo1, .fo2, .fo3{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+
+.b1{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo4{
+		width: 320.800px;
+	border: 5px solid red;
+	white-space: 0px;
+}
+.fo5{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.fo6{
+
+	border: 5px solid red;
+}
+.fo7{
+		width: 332.353px;
+	border: 5px solid red;
+}
+.fo4, .fo5, .f06, .fo6, .fo7{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+.b2{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo8{
+
+	border: 5px solid red;
+}
+.fo9{
+
+	border: 5px solid red;
+}
+.fo10{
+
+	border: 5px solid red;
+}
+.fo11{
+
+	border: 5px solid red;
+}
+.fo8, .fo9, .fo10, .fo11{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+.b3{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo12{
+
+	border: 5px solid red;
+}
+.fo13{
+
+	border: 5px solid red;
+}
+.fo14{
+
+	border: 5px solid red;
+}
+.fo15{
+
+	border: 5px solid red;
+}
+.fo12, .fo13, .fo14, .fo15{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+
+.b4{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo16{
+
+	border: 5px solid red;
+}
+.fo17{
+
+	border: 5px solid red;
+}
+.fo18{
+
+	border: 5px solid red;
+}
+.fo19{
+
+	border: 5px solid red;
+}
+.fo16, .fo17, .fo18, .fo19{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+
+.b5{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo20{
+
+	border: 5px solid red;
+}
+.fo21{
+
+	border: 5px solid red;
+}
+.fo22{
+
+	border: 5px solid red;
+}
+.fo23{
+
+	border: 5px solid red;
+}
+.fo20, .fo21, .fo22, .fo23{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+
+.b6{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+
+}
+.fo24{
+
+	border: 5px solid black;
+}
+.fo25{
+
+	border: 5px solid black;
+}
+.fo26{
+
+}
+.fo27{
+
+}
+.fo24, .fo25, .fo26, .fo27{
+	width: 329.600px;
+	background: #d3d3d3;
+	border-color: black;
+	border-radius: 15px;
+}
+b{
+	background: black;
+	border-radius: 5px;
+}
+.calendar-listing__layout{
+	background: black;
+}
+button{
+	font: bolder;
+	color: white;
+	background: black;
+}
+.calendar-listing_flag, .lazy{
+	border: 1px solid;
+	border-radius: 5px;
+}
