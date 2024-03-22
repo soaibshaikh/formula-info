@@ -1,0 +1,226 @@
+.navbar{
+	background-color: #000000;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}
+
+fieldset {
+	 width: 250px;
+	 height: 250px;
+	 display: flex;
+}
+
+
+.b0 {
+	 width: auto;
+	 height: auto;
+	 display: flex;
+	 padding-top: 15px;
+	 justify-content: center;
+}
+.fo0{
+	border: 5px solid red;
+	white-space: 0px;
+}
+.fo1{
+
+	 border: 5px solid red;
+}
+.fo2{
+
+	border: 5px solid red;
+}
+.fo3{
+
+	border: 5px solid red;
+}
+
+.b1{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo4{
+
+	border: 5px solid red;
+	white-space: 0px;
+}
+.fo5{
+
+	border: 5px solid red;
+}
+.fo6{
+
+	border: 5px solid red;
+}
+.fo7{
+
+	border: 5px solid red;
+}
+
+.b2{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo8{
+
+	border: 5px solid red;
+}
+.fo9{
+
+	border: 5px solid red;
+}
+.fo10{
+
+	border: 5px solid red;
+}
+.fo11{
+
+	border: 5px solid red;
+}
+
+.b3{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo12{
+
+	border: 5px solid red;
+}
+.fo13{
+
+	border: 5px solid red;
+}
+.fo14{
+
+	border: 5px solid red;
+}
+.fo15{
+
+	border: 5px solid red;
+}
+
+.b4{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo16{
+
+	border: 5px solid red;
+}
+.fo17{
+
+	border: 5px solid red;
+}
+.fo18{
+
+	border: 5px solid red;
+}
+.fo19{
+
+	border: 5px solid red;
+}
+
+.b5{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+}
+.fo20{
+
+	border: 5px solid red;
+}
+.fo21{
+
+	border: 5px solid red;
+}
+.fo22{
+
+	border: 5px solid red;
+}
+.fo23{
+
+	border: 5px solid red;
+}
+
+.b6{
+	width: auto;
+	height: auto;
+	display: flex;
+	padding-top: 15px;
+	justify-content: center;
+
+}
+.fo24{
+
+	border: 5px solid red;
+}
+.fo25{
+
+	border: 5px solid red;
+}
+
+.b0, .b1, .b2, .b3, .b4, .b5, .b6{
+
+	width: auto;
+	height: auto;
+}
+.fo0, .fo1, .fo2, .fo3, .fo4, .fo5, .fo6, .fo7, .fo8, .fo9, .fo10, .fo11, .fo12, .fo13, .fo14, .fo15, .fo16, .fo17, .fo18, .fo19, .fo20, .fo21, .fo22, .fo23, .fo24, .fo25{
+
+       width: 335.2px;
+       border-radius: 15px;
+       border: 5px solid black;
+}
+b{
+	background: #000000;
+}
+.lazy{
+	border: 1px solid black;
+}
+fieldset:hover{
+	border-color: red;
+}
