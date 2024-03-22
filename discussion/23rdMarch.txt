@@ -1,0 +1,78 @@
+1. Navbar 
+    - Home
+    - F1
+    - WEC
+    - Store
+    - About Us
+    - Contact Us
+    - logout
+
+https://www.codingnepalweb.com/category/navigation-bar
+
+Website Main Content
+
+pages
+ - Cutomer End-
+    1.Home 
+    2.F1 
+        - shedule
+            -
+            
+    3.WEC
+    4.Store
+        - products(show produts)
+        - product details 
+    5.About Us 
+    6.Contact Us
+    7.login page
+    8.resgister
+
+    9.cart -> checkout -> place order
+
+
+
+ - Admin Page - 
+    - admin login page 
+    - orders 
+    - order details
+
+Cutomer product 
+
+users 
+    -id
+    -full_name 
+    -email 
+    -password
+
+products  -3
+    - product_id
+    - product_name
+    - product_price
+
+orders
+    - order_id
+    - customer_id
+
+    44
+
+order_details
+    - order_details_id
+    - order_id
+    - product_id
+    - product_price
+
+1 - 44  ------ 7
+2 - 44 ------  6
+3 - 44 ------  4
+
+
+
+taha 
+routings correction
+
+
+store page
+cart page 
+database tables - products, orders , order_details
+
+admin code
