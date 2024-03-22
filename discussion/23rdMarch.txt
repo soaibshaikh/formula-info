@@ -70,7 +70,6 @@ order_details
 taha 
 routings correction
 
-
 store page
 cart page 
 database tables - products, orders , order_details
