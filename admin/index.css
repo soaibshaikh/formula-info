@@ -118,7 +118,7 @@
   justify-content: center; */
   height: 100vh;
   z-index: 100;
-  background: #e7f2fd;
+  /* background: #e7f2fd; */
 }
 .main h1 {
   color: #11101d;
@@ -127,7 +127,7 @@
 }
 
 .header-section{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     height: 300px;
     display: flex;
     justify-content: center;
