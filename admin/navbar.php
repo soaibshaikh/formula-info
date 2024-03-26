@@ -33,9 +33,9 @@ if (!isset($_SESSION["admin"])) {
           <a href="index.php">Home</a>
         </li>
 
-        <!-- <li class="item">
+        <li class="item">
           <div class="submenu-item">
-            <span>First submenu</span>
+            <span>Products submenu</span>
             <i class="fa-solid fa-chevron-right"></i>
           </div>
 
@@ -45,16 +45,16 @@ if (!isset($_SESSION["admin"])) {
               Your submenu title
             </div>
             <li class="item">
-              <a href="#">First sublink</a>
+              <a href="products.php">Show Products</a>
             </li>
             <li class="item">
-              <a href="#">First sublink</a>
+              <a href="add_product.php">Add Products</a>
             </li>
-            <li class="item">
+            <!-- <li class="item">
               <a href="#">First sublink</a>
-            </li>
+            </li> -->
           </ul>
-        </li> -->
+        </li>
         <!-- <li class="item">
           <div class="submenu-item">
             <span>Second submenu</span>
