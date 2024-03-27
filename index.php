@@ -64,7 +64,7 @@ if (!isset($_SESSION["user"])) {
 					<li><a href="pages/Teams & Drivers.html">Teams & Drivers</a></li>
 					<li><a href="pages/About.html">About</a></li>
 					<li><a href="#">Contact us</a></li>
-					<li><a href="Racing store/index.html">Store</a></li>
+					<li><a href="store/index.php">Store</a></li>
 					<li><a href="pages/Hot Topics.html">Hot Topics</a></li>
 					<li><a href="connect/logout.php">Log Out</a></li>
 				</ul>

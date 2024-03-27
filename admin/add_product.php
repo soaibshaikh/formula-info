@@ -5,6 +5,12 @@ if (!isset($_SESSION["admin"])) {
 }
 ?>
 
+<?php
+// echo $_SERVER["REQUEST_METHOD"] ;
+// echo $_POST['add_product'];
+if($_SERVER["REQUEST_METHOD"] != "POST" ){
+?>
+
 <!DOCTYPE html>
 <!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
@@ -30,93 +36,8 @@ if (!isset($_SESSION["admin"])) {
             <div class="header-section">
                 <h1>Add Prodcut</h1>
             </div>
-            <div class="container" >
-                <?php
-                // Include database connection
-                require_once('database.php'); // Adjust the path as per your directory structure
-
-                // Check if form is submitted
-                if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['add_product'])) {
-                    //  if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['csrf_token']) && $_POST['csrf_token'] === $_SESSION['csrf_token']) {
-
-                    // Retrieve form data
-                    $productName = $_POST['productName'];
-                    $productPrice = $_POST['productPrice'];
-                    $productDescription = $_POST['productDescription'];
-
-                    // File upload handling for product images
-                    $targetDir = "../uploads/"; // Adjust the path to your uploads directory
-                    $targetFile1 = $targetDir . basename($_FILES["productImage1"]["name"]);
-                    $targetFile2 = $targetDir . basename($_FILES["productImage2"]["name"]);
-                    $targetFile3 = $targetDir . basename($_FILES["productImage3"]["name"]);
-
-                    // Move uploaded files to the target directory
-                    move_uploaded_file($_FILES["productImage1"]["tmp_name"], $targetFile1);
-                    move_uploaded_file($_FILES["productImage2"]["tmp_name"], $targetFile2);
-                    move_uploaded_file($_FILES["productImage3"]["tmp_name"], $targetFile3);
-
-                    // Insert product details into the database
-                    $sql = "INSERT INTO products (name, price, image1, image2, image3, description) VALUES ('$productName', '$productPrice', '$targetFile1', '$targetFile2', '$targetFile3', '$productDescription')";
-
-                    // $result = mysqli_query($conn, $sql);
-
-                    if ($conn->query($sql) === TRUE) {
-                        // $_SESSION['status'] = "<Type Your success message here>";
-
-                        // if (isset($_SESSION['status'])) {
-                ?>
-                        <!-- 
-                            <div class="z-3 alert alert-warning alert-dismissible fade show" id="success_message" role="alert">
-                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                                <button type="button" onclick="myFunction()" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                            <script>
-                                function myFunction() {
-                                    document.getElementById("success_message")
-                                    element.remove();
-                                }
-                                // addEventListener('')
-                            </script> -->
-                <?php
-                        //     unset($_SESSION['status']);
-                        // }
-                        // Display flash message upon successful submission
-                        echo "<script>alert('Product added successfully!');</script>";
-                        // die("<span class='success'>Product added successfully!</span>");
-                        unset($_POST['add_product']);
-                    } else {
-                        echo "Error: " . $sql . "<br>" . $conn->error;
-                        unset($_POST['add_product']);
-                    }
-
-                    // Close connection
-                    // $conn->close();
-                }
-                ?>
-                <!-- <form action="add_product.php" method="POST" enctype="multipart/form-data">
-                    <label for="productName">Product Name:</label><br>
-                    <input type="text" id="productName" name="productName" required><br><br>
-
-                    <label for="productPrice">Product Price:</label><br>
-                    <input type="number" id="productPrice" name="productPrice" required><br><br>
-
-                    <label for="productImage1">Product Image 1:</label><br>
-                    <input type="file" id="productImage1" name="productImage1" accept="image/*" required><br><br>
-
-                    <label for="productImage2">Product Image 2:</label><br>
-                    <input type="file" id="productImage2" name="productImage2" accept="image/*" required><br><br>
-
-                    <label for="productImage3">Product Image 3:</label><br>
-                    <input type="file" id="productImage3" name="productImage3" accept="image/*" required><br><br>
-
-                    <label for="productDescription">Product Description:</label><br>
-                    <textarea id="productDescription" name="productDescription" required></textarea><br><br>
-
-                    <input type="submit" value="Add Product">
-                </form> -->
-
-
-                <form action="add_product.php" method="POST"  style="margin: 20px auto;" enctype="multipart/form-data">
+            <div class="container">
+                <form action="add_product.php" method="POST" style="margin: 20px auto;" enctype="multipart/form-data">
                     <!-- Include a hidden field for the token -->
 
                     <!-- product name -->
@@ -186,3 +107,105 @@ if (!isset($_SESSION["admin"])) {
 </body>
 
 </html>
+<?php
+
+}?>
+<?php
+// Include database connection
+require_once('database.php'); // Adjust the path as per your directory structure
+
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['add_product'])) {
+    //  if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['csrf_token']) && $_POST['csrf_token'] === $_SESSION['csrf_token']) {
+
+    // Retrieve form data
+    $productName = $_POST['productName'];
+    $productPrice = $_POST['productPrice'];
+    $productDescription = $_POST['productDescription'];
+
+    // File upload handling for product images
+    $targetDir = "../uploads/"; // Adjust the path to your uploads directory
+    $targetFile1 = $targetDir . basename($_FILES["productImage1"]["name"]);
+    $targetFile2 = $targetDir . basename($_FILES["productImage2"]["name"]);
+    $targetFile3 = $targetDir . basename($_FILES["productImage3"]["name"]);
+
+    // Move uploaded files to the target directory
+    move_uploaded_file($_FILES["productImage1"]["tmp_name"], $targetFile1);
+    move_uploaded_file($_FILES["productImage2"]["tmp_name"], $targetFile2);
+    move_uploaded_file($_FILES["productImage3"]["tmp_name"], $targetFile3);
+
+    // Insert product details into the database
+    $sql = "INSERT INTO products (name, price, image1, image2, image3, description) VALUES ('$productName', '$productPrice', '$targetFile1', '$targetFile2', '$targetFile3', '$productDescription')";
+
+    // $result = mysqli_query($conn, $sql);
+
+    if ($conn->query($sql) === TRUE) {
+        // $_SESSION['status'] = "<Type Your success message here>";
+
+        // if (isset($_SESSION['status'])) {
+?>
+        <!DOCTYPE html>
+        <!-- Coding By CodingNepal - codingnepalweb.com -->
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Product Delete | Formula1</title>
+            <link rel="stylesheet" href="index.css" />
+            <!-- Fontawesome CDN Link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+            <!-- bootstrap link -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        </head>
+
+        <body>
+            <?php include 'navbar.php'; ?>
+
+
+            <main class="main">
+                <div class="admin-dashboard bg-secondary-subtle">
+                    <div class="header-section">
+                        <h1>Prodcut Added successfully.</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-2  mx-auto">
+                            <a href="products.php" class="btn btn-primary">Go to Products</a>
+                        </div>
+                    </div>
+                    <div class="container" style="min-height: 50px;"></div>
+                </div>
+            </main>
+            <script src="script.js"></script>
+            <script>
+                if (window.history.replaceState) {
+                    window.history.replaceState(null, null, window.location.href);
+                }
+                // const myModal = document.getElementById('myModal')
+                // const myInput = document.getElementById('myInput')
+
+                // myModal.addEventListener('shown.bs.modal', () => {
+                //     myInput.focus()
+                // })
+                // $('#staticBackdrop').appendTo("body") 
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </body>
+
+        </html>
+
+<?php
+        
+        // echo "<script>alert('Product added successfully!');</script>";
+        // die("<span class='success'>Product added successfully!</span>");
+        unset($_POST['add_product']);
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+        // unset($_POST['add_product']);
+    }
+
+    // Close connection
+    // $conn->close();
+}
+?>

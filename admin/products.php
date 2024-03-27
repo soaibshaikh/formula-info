@@ -32,7 +32,7 @@ if (!isset($_SESSION["admin"])) {
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             width: 300px;
-            height: 580px;
+            height: 620px;
             margin: auto;
             text-align: center;
             font-family: arial;
@@ -80,7 +80,7 @@ if (!isset($_SESSION["admin"])) {
                 <h1>Our Products</h1>
             </div>
             <div class="container">
-                <div class="row row-cols-3 row-cols-lg-4 g-2 g-lg-3">
+                <div class="row ">
 
                     <?php
                     // Include database connection file
@@ -107,15 +107,44 @@ if (!isset($_SESSION["admin"])) {
                             // echo "</tr>";
                     ?>
 
-                            <div class="col">
-                                <div class="card">
-                                    <img src=<?php echo $row["image1"]  ?> alt=<?php echo $row["name"]  ?> style="width:100%">
-                                    <h3><?php echo $row["name"]  ?></h3>
-                                    <p class="price">$<?php echo $row["price"]  ?></p>
-                                    <p><?php echo $row["description"]  ?></p>
-                                    <div class="d-flex flex-row mb-3">
-                                        <div class="p-2"><a class="btn btn-warning" href=<?php echo 'update_product.php?id=' . $row["id"] ?>>Update Product</a></div>
-                                        <div class="p-2"><a class="btn btn-primary" href=<?php echo 'productDetail.php?id=' . $row["id"] ?>>Product Detail</a></div>
+                            <div class="col-12 my-2  py-2  bg-secondary">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <p>Product Id : <?php echo $row["id"]  ?></p>
+
+                                    </div>
+                                    <div class="col-3">
+
+                                        <img src=<?php echo $row["image1"]  ?> alt=<?php echo $row["name"]  ?> style="width:100%">
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col">
+                                            <h3><?php echo $row["name"]  ?></h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                            <p><?php echo $row["description"]  ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                            <p class="price">$<?php echo $row["price"]  ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="row">
+                                            <div class="col">
+                                            <div class="p-1"><a class="btn btn-warning" href=<?php echo 'update_product.php?id=' . $row["id"] ?>>Update Product</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                            <div class="p-1"><a class="btn btn-primary" href=<?php echo 'productDetail.php?id=' . $row["id"] ?>>Product Detail</a></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
