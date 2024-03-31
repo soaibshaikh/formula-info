@@ -1,0 +1,178 @@
+.navbar{
+	background-color: #000000;
+	border-radius: 30px;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	/*padding: 3px 3px;*/
+	margin: 13px 20px;
+	padding-top: 3px;
+}
+.navbar li a{
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+
+}
+.navbar li a:hover{
+	color: red;
+}
+}
+.navbar input{
+	border: 2px solid black;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 129px;
+}
+body{
+	background color: white;
+}
+.hover
+
+	background-color: blue; 
+}
+.reliable{
+	display: flex;
+}
+.f1{
+	display: inline-flex;
+}
+.merc {
+	
+	border: 3px solid;
+    width: 660px;
+}
+.driversmerc{
+	display: flex;
+}
+.GR{
+	border: 3px solid;
+	width: 327.7px;
+
+}
+.LH{
+	border: 3px solid;
+	width: 327.7px;
+}
+.mercar{
+	border: 3px solid;
+	width: 660px;
+}
+.driversalp{
+	display: flex;
+}
+.EO{
+	border: 3px solid;
+	width: 327.7px;
+}
+.PG{
+	border: 3px solid;
+	width: 327.7px;
+}
+.alpcar{
+	border: 3px solid;
+	width: 660px;
+	height: auto;
+}
+.f2{
+	display: inline-flex;
+}
+.top{
+}
+.RB1{	
+	border: 3px solid;
+    width: 660px;
+}
+.driversRB1{
+	display: flex;
+}
+.MAV{
+	border: 3px solid;
+	width: 327.7px;
+
+}
+.SGP{
+	border: 3px solid;
+	width: 327.7px;
+}
+.rb1car{
+	border: none;
+	width: 660px;
+}
+.fastbut{
+}
+.Mclrn{	
+	border: 3px solid;
+    width: 660px;
+}
+.driversmclr{
+	display: flex;
+}
+.LN{
+	border: 3px solid;
+	width: 327.37px;
+
+}
+.OP{
+	border: 3px solid;
+	width: 328px;
+}
+.MCLRcar{
+	border: none;
+	width: 660px;
+}
+lay: inline-flex;
+}
+.smgsms{
+	display: inline-flex;
+}
+.AST{	
+	border: 3px solid;
+    width: 660px;
+}
+.driversAST{
+	display: flex;
+}
+.FA{
+	border: 3px solid;
+	width: 327.7px;
+
+}
+.LS{
+	border: 3px solid;
+	width: 327.7px;
+}
+.astcar{
+	border: none;
+	width: 660px;
+}
+.f4{
+}
+.FARI
+	border: 3px solid;
+    width: 660px;
+}
+.driversfri{
+	display: flex;
+}
+.CS{
+	border: 3px solid;
+	width: 327.37px;
+
+}
+.CS{
+	border: 3px solid;
+	width: 328px;
+}
+.fricar{
+	border: none;
+	width: 660px;
+}
+a{
+	color: black;
+}
